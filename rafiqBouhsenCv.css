@@ -10,7 +10,6 @@ body{
     background: white;
 }
 img{
-    display: inline-block;
     margin: 0;
     height:300px;
     width:300px;
@@ -36,8 +35,9 @@ img{
     border: 2px solid black;
 }
 .cv .cv_left{
-    width: 450px;
+    width: 600px;
     background: #bfacac;
+    padding-top: 12px;
 }
 .cv .cv_left .cv_content{
     padding: 0 25px;
@@ -66,9 +66,9 @@ img{
     text-align: justify;
 }
 .cv .cv_right {
-    width: 900px;
+    width: 1082px;
     background: #e7bfbf;
-    padding: 25px;
+    padding:0px 25px;
 }
 .date{
     font-weight: 700;
@@ -82,7 +82,8 @@ img{
 }
 #para0{
     color: black;
-    font-size: 33px;
+    font-size: 30px;
+    text-align: center;
+    text-justify: auto;
 }
-
 
