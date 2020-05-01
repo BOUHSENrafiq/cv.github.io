@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 body{
-    background: #cecece;
+    background: white;
 }
 img{
     display: inline-block;
@@ -30,13 +30,13 @@ img{
     width: auto;
     height: auto;
     display: flex;
-    margin: 50px auto;
+    margin: 0px auto;
     float: left;
+    border: 2px solid black;
 }
 .cv .cv_left{
     width: 450px;
     background: burlywood ;
-    border: 1px solid black;
 }
 .cv .cv_left .cv_content{
     padding: 0 25px;
@@ -67,18 +67,16 @@ img{
     width: 900px;
     background: lightblue;
     padding: 25px;
-    border: 1px solid black;
 }
 .date{
     font-weight: 700;
 }
-.cv .cv_right ul li {
+.cv .cv_right ul li{
     display: list-item;
     align-items: center;
     text-align: justify;
     position: relative;
 }
-
 #para0{
     color: black;
     font-size: 33px;
