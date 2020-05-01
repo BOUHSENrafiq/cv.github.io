@@ -16,6 +16,12 @@ img{
     border-radius: 50%;
     border: 1.5px solid black;
 }
+#para0{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-justify: auto;
+}
 .cv_profile{
     text-align: center;
 }
@@ -27,17 +33,16 @@ img{
     text-align: center;
 }
 .cv{
-    width: auto;
-    height: auto;
+    width: border-box;
+    height: border-box;
     display: flex;
     margin: 0px auto;
     float: left;
-    border: 2px solid black;
 }
 .cv .cv_left{
     width: 600px;
     background: #bfacac;
-    padding-top: 12px;
+    padding-top: 8px;
 }
 .cv .cv_left .cv_content{
     padding: 0 25px;
@@ -78,12 +83,6 @@ img{
     display: list-item;
     align-items: center;
     text-align: justify;
-    position: relative;
 }
-#para0{
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    text-justify: auto;
-}
+
 
