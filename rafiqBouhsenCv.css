@@ -15,6 +15,7 @@ img{
     height:300px;
     width:300px;
     border-radius: 50%;
+    border: 1.5px solid black;
 }
 .cv_profile{
     text-align: center;
@@ -36,7 +37,7 @@ img{
 }
 .cv .cv_left{
     width: 450px;
-    background: burlywood ;
+    background: #bfacac;
 }
 .cv .cv_left .cv_content{
     padding: 0 25px;
@@ -46,6 +47,7 @@ img{
     color: green;
     font-size: 18px;
     font-weight: 700;
+    text-transform: uppercase;
     text-decoration: underline solid rgb(68, 68, 68);
 }
 .data{
@@ -65,11 +67,12 @@ img{
 }
 .cv .cv_right {
     width: 900px;
-    background: lightblue;
+    background: #e7bfbf;
     padding: 25px;
 }
 .date{
     font-weight: 700;
+    color: #8f2392;
 }
 .cv .cv_right ul li{
     display: list-item;
