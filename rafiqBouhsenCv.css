@@ -11,8 +11,8 @@ body{
 }
 img{
     margin: 0;
-    height:300px;
-    width:300px;
+    height:auto;
+    width:50%;
     border-radius: 50%;
     border: 1.5px solid black;
 }
@@ -40,9 +40,10 @@ img{
     float: left;
 }
 .cv .cv_left{
-    width: 600px;
+    width: 30%;
     background: #bfacac;
     padding-top: 8px;
+    float: left;
 }
 .cv .cv_left .cv_content{
     padding: 0 25px;
@@ -71,9 +72,10 @@ img{
     text-align: justify;
 }
 .cv .cv_right {
-    width: 1082px;
+    width: 70%;
     background: #e7bfbf;
     padding:0px 25px;
+    float: left;
 }
 .date{
     font-weight: 700;
