@@ -86,5 +86,14 @@ img{
     align-items: center;
     text-align: justify;
 }
-
+/* When the width is between 600px and 900px - change the appearance of .cv */
+@media screen and (min-width: 600px) and (max-width: 900px){
+   .cv{
+       flex-direction: column;
+       border: 1px solid black;
+    }
+    .cv .cv_left, .cv .cv_right{
+        width: auto;
+    }
+}
 
