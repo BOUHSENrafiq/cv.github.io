@@ -96,4 +96,9 @@ img{
         width: auto;
     }
 }
+@media print {
+    .cv {
+        width: auto;
+    }
+}
 
